@@ -1,6 +1,6 @@
 // We need to upload the below code to Arduino
 // While uploading the code disconnect HC-05 bluetooth module from Arduino like shown in video.
-// Code Author: Vignesh Raja
+// Original Code Author and credit goes to: Vignesh Raja
 
 int led = 13;
 void setup()
@@ -26,18 +26,10 @@ void loop()
   }
 }
 
-// After upload the code, download and install the app given below play store link in your smartphone :
-// https://play.google.com/store/apps/details?id=ptah.apps.bluetoothterminal
 
-// After installation turn on smartphone bluetooth and detect the HC -05 bluetooth module and
-// Pair it with your smartphone (The pairing password for HC-05 module is mostly 1234).
+// Check out my video in Youtube: https://youtu.be/MZw8hEbOnSU
+// My reference(s):
+   // See https://www.instructables.com/id/Connect-Arduino-With-Your-Smartphone/ by Vignesh Raja
 
-// After pairing, open the app and select the paired
-// HC-05 bluetooth module. Then type "on" and click send button then led will turn on. 
-// Same as type "off" and click send button then led will turn off.
 
-// We can use any comment we want instead of "on" and "off" by changing the Arduino code
 
-// Also we can control anything we want instead of the led by changing the Arduino code
-
-// See https://www.instructables.com/id/Connect-Arduino-With-Your-Smartphone/
