@@ -1,5 +1,5 @@
 // We need to upload the below code to Arduino
-// While uploading the code disconnect HC-05 bluetooth module from Arduino like shown in video.
+// While uploading the code disconnect [HC-05] bluetooth module from Arduino like shown in video.
 // Original Code Author and credit goes to: Vignesh Raja
 
 int led = 13;
@@ -26,6 +26,8 @@ void loop()
   }
 }
 
+// Replace the LED function with another module like Temperature and Humidity or other motor device.
+// The possibility are endless... As they say it.
 
 // Check out my video in Youtube: https://youtu.be/MZw8hEbOnSU
 // My reference(s):
