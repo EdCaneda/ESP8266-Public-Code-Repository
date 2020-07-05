@@ -5,10 +5,10 @@ SoftwareSerial esp8266(9,10); //this allows Arduino to use ESP8266 to send data 
 #include <stdlib.h>
 LiquidCrystal lcd(12,11,5,4,3,2);
 
-#define SSID "CCTN-WIFI"     // "SSID-WiFiname" 
-#define PASS "francis123"       // "password"
+#define SSID "YourWifiNetwork"     // "SSID-WiFiname" 
+#define PASS "YourWifiNetwork'sPassword"       // "password"
 #define IP "184.106.153.149"// thingspeak.com ip
-String msg = "GET /update?key=Z3ZMUASIDBH0AOVJ"; //change it with your api key like "GET /update?key=Your Api Key"
+String msg = "GET /update?key=Z3ZMUASIDBH0EOVJ"; //change it with your api key like "GET /update?key=Your Api Key"
 
 //Variables
 float temp;
